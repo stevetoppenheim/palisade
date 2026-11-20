@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "palisade-recon"
+version = "1.0.0"
+description = "Authorization-gated vulnerability assessment orchestrator for Kali Linux"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Steve Oppenheim", email = "steveoppenheim@opey.org" }]
+dependencies = ["PyYAML>=6.0", "openpyxl>=3.1", "jinja2>=3.1"]
+
+[project.urls]
+Homepage = "https://www.opey.org/opeyit/palisade/"
+Source = "https://www.opey.org/opeyit/palisade/"
+
+[project.scripts]
+palisade = "palisade.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["palisade*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

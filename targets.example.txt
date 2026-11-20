@@ -1,0 +1,8 @@
+# Palisade sample target list. One target per line.
+# Formats accepted: IP, CIDR, host, URL, with optional :port or ports=...
+10.10.0.5
+10.10.0.6:8080
+10.10.1.0/24
+app.acme.example ports=80,443,8443
+https://app.acme.example/login
+203.0.113.10 ports=22,80,443

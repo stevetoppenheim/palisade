@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Palisade run output: never commit engagement data / findings / audit logs
+runs/
+*.audit.jsonl
+reports/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Rendered artifacts
+*.pdf
+page-*.jpg
