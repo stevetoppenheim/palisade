@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="docs/brand/palisade_logo.jpg" alt="Palisade" width="520">
-</p>
+<img width="1600" height="1000" alt="palisade_logo" src="https://github.com/user-attachments/assets/fd697477-e973-49e0-8f29-9168a5472cb9" />
+
 
 # Palisade
 
